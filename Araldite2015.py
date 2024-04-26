@@ -200,7 +200,7 @@ for Info in ModelInfo:
                         noStop=ON,
                         timeIncrementationMethod=Step_Mode, 
                         description='')
-    # Intercation
+    # Interaction
     model.ContactProperty('CZM')
     model.interactionProperties['CZM'].CohesiveBehavior(defaultPenalties=OFF, 
                                                     table=((1750, 258.491, 258.491), ))
